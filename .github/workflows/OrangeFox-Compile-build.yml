@@ -20,7 +20,7 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/YuKongA/device_xiaomi_fuxi_TWRP'
+        default: 'https://github.com/grass2/device_xiaomi_peridot_twrp'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
@@ -28,11 +28,11 @@ on:
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/xiaomi/fuxi'
+        default: 'device/xiaomi/peridot'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'fuxi'
+        default: 'peridot'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
